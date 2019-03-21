@@ -1,0 +1,363 @@
+/* Quand on veut pas les bords blancs !!! */
+body {
+    margin:0px auto;
+}
+
+/* Première section */ 
+
+#sec1 {
+    background-image:url("images/227c9e6d.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    
+}
+
+a {
+    color:black;
+}
+
+#div1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+#onglets {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+    width:100%;
+    color:white;
+    visibility: hidden;
+    text-decoration: none;
+    background-color:white;
+ 
+}
+
+#onglets a {
+    text-decoration:none;
+}
+
+.classforjs  {
+    position:fixed;
+    color:white;;
+    background-color: rgba(255, 255, 255, 1);
+
+    text-decoration: none;
+}
+
+#onglets:hover {
+    text-decoration: underline;
+}
+#princess {
+    color:white;
+}
+
+#develop {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex-direction:column;
+    height:40%;
+    margin-top: 60px;
+}
+
+#hello {
+    color:white;
+}
+
+#iam {
+    color:white;
+}
+
+#icones {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+}
+
+
+/* Deuxième section */
+#sec2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color:rgb(34, 34, 34);
+}
+
+#uiux {
+    margin-top: -15px;
+}
+
+#lesbarres {
+    width:100%;
+}
+
+.trans {
+    background-color: rgba(128, 128, 128, 0.123);
+    color:white;
+    margin: 20px;
+}
+
+#wdesign {
+    background-color: rgb(36, 30, 30);
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    animation: slidein 3s linear running;
+}
+
+#brand {
+    background-color: rgb(36, 30, 30);
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    animation: slidein 3s linear running;
+}
+
+#dev {
+    background-color: rgb(36, 30, 30);
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    animation: slidein 3s linear running;
+}
+
+#Contact {
+    background-color:white;
+    color:grey;
+    border-radius:10px;
+    height: 50px;
+    width : 110px;
+}
+
+#Download {
+    background-color: rgb(14, 14, 14);
+    color:white;
+    border-radius:10px;
+    height: 50px;
+    width : 110px;
+}
+
+/* Troisième section */
+
+#sec3{
+    background-color:rgba(207, 207, 207, 0.315);
+    background:url(images/lianes.png) ;
+    padding:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    
+    
+}
+
+#services {
+    display:flex;
+    justify-content:center;
+    color: rgb(252, 151, 0);
+}
+
+.serv {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    margin:20px;
+    padding-top:20px;
+    box-shadow:3px 3px 5px grey;
+}    
+
+#foret1 {
+    background: url(images/foret1.jpg) no-repeat ;
+    background-size:100%;
+    color:rgb(1, 136, 19);
+}
+
+#foret2 {
+    background: url(images/foret2.jpg) no-repeat ;
+    background-size:100%;
+    color :rgb(54, 129, 31);
+}
+
+#foret3 {
+    background: url(images/foret3.jpg) no-repeat;
+    background-size:100%;
+    color: green;
+}
+
+#link {
+    background: url(images/elfette.jpg) no-repeat;
+    background-size:575px 264px;
+    color: rgb(18, 161, 137);
+    opacity: 0.9;
+}
+
+#elfette {
+    background: url(images/link.jpg) no-repeat;
+    background-size:100%;
+    color: rgb(1, 204, 153);
+}
+
+#archere {
+    background: url(images/elf_archer.jpg) no-repeat;
+    background-size:575px 264px;
+    color:rgb(50, 113, 250);
+    opacity: 0.8;
+
+}
+i {
+    background-color: rgba(48, 41, 41, 0.329);
+    font-size:2em;
+    border-radius: 25px;
+    padding:10px;
+    color:rgb(92, 162, 141);
+}
+i:hover{
+    background-color: rgba(54, 54, 54, 0.76);
+}
+
+/* Quatrième section */
+#sec4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color:rgb(34, 34, 34);
+    background: url(images/automne.jpg) no-repeat;
+    background-size:100%;
+}
+#portfolio {
+    display:flex;
+    justify-content: center;
+}
+
+#ongletsp {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:20px;
+}
+
+#ongletsp:hover {
+    text-decoration: underline;
+}
+
+.img1 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+.img1:hover {
+    opacity:0.3;
+}
+
+.hidden1 {
+    display:flex;
+    position:absolute;
+    width:600px;
+    height:500px;
+    opacity:0;
+    flex-direction: column;
+   
+}
+
+.jsp {
+    display:flex;
+    align-items:center;
+}
+
+
+.hidden1:hover {
+    opacity: 1;
+}
+
+.img2 {
+    display:flex;
+    justify-content: center;
+}
+
+.img3 {
+    display:flex;
+    justify-content: center;
+}
+
+.img4 {
+    display:flex;
+    justify-content: center;
+}
+
+.img5 {
+    display:flex;
+    justify-content: center;
+}
+
+.img6 {
+    display:flex;
+    justify-content: center;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// Partie Desktop //////////////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (min-width: 1050px) {
+    /* Section 1 */
+    #burger{
+        visibility:hidden;
+    }
+
+    #onglets {
+        visibility: visible;
+        flex-direction:row;
+        background-color: rgba(255, 255, 255, 0);
+        align-items:flex-start;
+           
+    }
+
+    .classforjs  {
+        position:fixed;
+        color:black!important;
+        background-color: rgba(255, 255, 255, 0.384)!important;
+    
+        text-decoration: none;
+    }
+    
+    /* Section 2 */
+    #sec2 {
+        display:flex;
+    }
+
+    #about {
+        display:flex;
+        flex-direction: column;
+    }
+    /* Section 3 */
+    #container2 {
+        display:flex;
+    }
+
+    #container3 {
+        display:flex;
+    }
+    /* Section 4 */
+    #container4 {
+        display:flex;
+    } 
+    #container5 {
+        display:flex;
+    }
+}
+
+
+/* /////////////////////////////////// Animations ! ////////////////////////////////////////////////// */
+
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }

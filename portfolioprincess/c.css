@@ -1,0 +1,55 @@
+/* Première section */ 
+
+#sec1 {
+    background-image:url("images/bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin:0px;
+  
+}
+
+#princess {
+    color:white;
+   
+}
+
+#div1 {
+    position: relative;
+}
+
+#burger {
+    position: absolute;
+    right: 1em;
+    top: 0em;
+}
+
+#develop {
+    position: relative;
+    text-align:center;
+    margin:90px;
+    padding:210px;
+}
+
+#hello {
+    text-align: center;
+    color:white;
+}
+
+#iam {
+    text-align:center;
+    color:white;
+    
+}
+
+i {
+    padding:10px;
+    color:white;
+}
+/* Deuxième section */
+
+
+#uiux {
+    margin-top: -15px;
+}
+
